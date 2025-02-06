@@ -2,11 +2,17 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6Ro2ffCqpjB":
+      case "6oVrW8bcQbP":
         Script1();
         break;
-      case "6RHclblq3ph":
+      case "6DIzajav7qd":
         Script2();
+        break;
+      case "6dIyWA0E1D5":
+        Script3();
+        break;
+      case "6oQUzhHAejC":
+        Script4();
         break;
   }
 }
@@ -59,6 +65,20 @@ function Script2()
   var audio = document.getElementById('bgSong');
 audio.src="story_content/external_files/Lights(chosic.com).mp3";
 audio.load();
+
+audio.play();
+}
+
+function Script3()
+{
+  var audio = document.getElementById('bgSong');
+
+audio.pause();
+}
+
+function Script4()
+{
+  var audio = document.getElementById('bgSong');
 
 audio.play();
 }
